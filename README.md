@@ -1,2 +1,2 @@
 # tenphase
-TenPhase is Short Term Work Timer
+TenPhase is Short and Long Term Work Timer
