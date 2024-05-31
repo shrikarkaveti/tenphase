@@ -80,12 +80,12 @@
         var percentage = Math.round((100 - ((distance / total_distance) * 100)) * 10000) / 10000;
 
         // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = percentage + " %";
+        document.getElementById("countdown").innerHTML = percentage + " %";
 
         // Response if count down is complete
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById('countdown').innerHTML = 'EXPIRED';
+          document.getElementById("countdown").innerHTML = 'EXPIRED';
         }
       }, 1000);
     </script>
